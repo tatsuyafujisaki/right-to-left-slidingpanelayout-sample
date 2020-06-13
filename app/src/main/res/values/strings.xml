@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Right-to-left SlidingPaneLayout</string>
+    <string name="open">Open</string>
+    <string name="update_lower_layer">Update lower layer</string>
+    <string name="next">Next</string>
+</resources>

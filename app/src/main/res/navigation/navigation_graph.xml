@@ -1,0 +1,17 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/overlay_fragment">
+    <fragment
+        android:id="@+id/overlay_fragment"
+        android:name="com.github.tatsuyafujisaki.rtlsplsample.OverlayFragment"
+        android:label="OverlayFragment">
+        <action
+            android:id="@+id/go_to_overlay_fragment2_action"
+            app:destination="@id/overlay_fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/overlay_fragment2"
+        android:name="com.github.tatsuyafujisaki.rtlsplsample.OverlayFragment2"
+        android:label="OverlayFragment2" />
+</navigation>
